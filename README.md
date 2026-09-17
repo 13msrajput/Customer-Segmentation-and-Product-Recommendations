@@ -99,14 +99,14 @@ One purchased item per eligible customer was held out and the recommender was as
 ## Repository Structure
 
 ```
-Shopper-Spectrum/
+Customer-Segmentation-and-Product-Recommendations/
 ├── models/
 ├── .gitignore
 ├── README.md
 ├── app.py                 
 ├── online_retail.csv          
 ├── requirements.txt          
-└── shopper_spectrum.ipynb    
+└── Customer-Segmentation-and-Product-Recommendations.ipynb    
 ```
 
 ---
@@ -120,7 +120,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The app expects the trained artifacts (`kmeans_model.pkl`, `rfm_scaler.pkl`, `cluster_label_map.pkl`, `cosine_sim_df.pkl`, `rfm_segments.csv`) inside `models/`. These are produced by running `Shopper_Spectrum.ipynb` end-to-end, or can be used as already provided in this repo.
+The app expects the trained artifacts (`kmeans_model.pkl`, `rfm_scaler.pkl`, `cluster_label_map.pkl`, `cosine_sim_df.pkl`, `rfm_segments.csv`) inside `models/`. These are produced by running `Customer-Segmentation-and-Product-Recommendations` end-to-end, or can be used as already provided in this repo.
 
 ---
 
