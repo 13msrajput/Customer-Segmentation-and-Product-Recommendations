@@ -6,7 +6,7 @@
 
 An end-to-end unsupervised learning project that segments e-commerce customers using RFM (Recency, Frequency, Monetary) analysis and recommends products using item-based collaborative filtering — deployed as an interactive Streamlit app.
 
-**[Live App →](https://shopper-spectrum-app.streamlit.app)**
+**[Live App →](https://customer-segmentation-and-item-recommendations.streamlit.app)**
 
 </div>
 
@@ -114,8 +114,8 @@ Shopper-Spectrum/
 ## Running Locally
 
 ```bash
-git clone https://github.com/Mohit-1307/Shopper-Spectrum.git
-cd Shopper-Spectrum
+git clone https://github.com/13msrajput/Customer-Segmentation-and-Product-Recommendations.git
+cd Customer-Segmentation-and-Product-Recommendations
 pip install -r requirements.txt
 streamlit run app.py
 ```
